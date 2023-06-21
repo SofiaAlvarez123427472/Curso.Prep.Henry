@@ -9,6 +9,39 @@ body {
   text-align: center;
 }
 
+#ejercicioUno {
+  display:block;
+  text-align:center;
+}
+
+#ejercicioDos {
+  display:none;
+}
+
+#ejercicioTres {
+  position:relative;
+  left:200px;
+  top:100px;
+}
+#ejercicioCuatro {
+  position:absolute;
+  top:9px;
+  
+}
+#ejercicioCinco {
+display:flex;
+align-items:center;
+
+}
+
+#ejercicioSiete {
+  #elementoUno {
+    display:flex;
+    align-self:center;
+  }
+}
+
+
 .container {
   padding: 30px;
 }
